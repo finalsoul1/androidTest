@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/siba" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/messageboxxpng"
+            android:gravity="center"
+            android:text="@string/message"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/vegiButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorVegi"
+            android:checked="true"
+            android:textOff="@string/vegiOff"
+            android:textOn="@string/vegiOn"
+            android:onClick="onClickVegi"/>
+
+        <ToggleButton
+            android:id="@+id/meatButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorMeat"
+            android:text="ToggleButton"
+            android:textOn="@string/meatOn"
+            android:textOff="@string/meatOff"
+            android:onClick="onClickMeat"/>
+
+        <ToggleButton
+            android:id="@+id/fishButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorfish"
+            android:text="ToggleButton"
+            android:textOff="@string/fishOff"
+            android:textOn="@string/fishOn"
+            android:onClick="onClickFish"/>
+
+        <ToggleButton
+            android:id="@+id/etcButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="#018786"
+            android:text="ToggleButton"
+            android:textOff="Off"
+            android:textOn="On" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/adapter_contants"/>
+
+    </LinearLayout>-->
+
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="5dp"
+        android:numColumns="5"
+        android:verticalSpacing="5dp"
+        tools:listitem="@layout/food_toggle"
+        android:background="#C7FCC0"
+        android:padding="10dp">
+
+    </GridView>
+
+
+</LinearLayout>

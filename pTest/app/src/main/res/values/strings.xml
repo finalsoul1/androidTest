@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">pTest</string>
+    <string name="message">냉장고에 있는 재료를 \n 선택해주세요!</string>
+    <string name="vegiOn"><b>채소</b></string>
+    <string name="vegiOff">채소</string>
+    <string name="meatOn"><b>육류</b></string>
+    <string name="meatOff">육류</string>
+    <string name="fishOn"><b>어류</b></string>
+    <string name="fishOff">어류</string>
+</resources>

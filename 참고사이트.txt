@@ -1,0 +1,18 @@
+참고 사이트
+
+나인패치툴
+http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
+설명
+https://blog.cracker9.io/2018/10/24/NinePatch/
+
+strings 서식
+https://developer.android.com/guide/topics/resources/string-resource?hl=ko#FormattingAndStyling
+
+툴속성
+http://gun0912.tistory.com/73
+
+토글버튼 on/off 이미지 수정 방법
+https://m.blog.naver.com/PostView.nhn?blogId=websearch&logNo=220484885835&proxyReferer=https%3A%2F%2Fwww.google.co.uk%2F
+
+구글 머터리얼 디자인 아이콘
+https://material.io/tools/icons/?style=baseline
